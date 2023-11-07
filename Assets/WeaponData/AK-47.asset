@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83665ac7a86b69347b87f98cfc77de2b, type: 3}
+  m_Name: AK-47
+  m_EditorClassIdentifier: 
+  weaponName: AK-47
+  weaponAnimation: Shoot
+  weaponID: 0
+  magCapacity: 1000000
+  damageByDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 25
+      value: 1
+      inSlope: 0.00015666176
+      outSlope: 0.00015666176
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.060798645
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 100
+      value: 0
+      inSlope: -0.013333334
+      outSlope: -0.013333334
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  damage: 10
+  reloadTime: 2
+  cameraShakeForce: 0.5
+  bulletForce: 10
+  bulletSpeed: 100
+  fireRate: 0.05
+  weaponType: 1
+  muzzleFlash: {fileID: 1742056658249649367, guid: 7e8f08787e0ed9045919eb0ae327e956,
+    type: 3}
